@@ -85,7 +85,7 @@ helpembed2.add_field(
 )
 
 async def helpscreen(ctx):
-    await ctx.author.send("Here's how I work. Commands like P!name and P!phone will add those details to your 'profile' which is stored with the bot.  Once you've added all the requred info to your profile, you can make an order. Here's a full list of my commands and what they do. (They're also all DM only so no one is snoopin' on your personal info)", embed=helpembed)    
+    await ctx.author.send("Here's how I work. Commands like P!name and P!phone will add those details to your 'profile' which is stored with the bot.  Once you've added all the required info to your profile, you can make an order. Here's a full list of my commands and what they do. (They're also all DM only so no one is snoopin' on your personal info)", embed=helpembed)    
     await ctx.author.send(embed=helpembed2)    
 
 async def vals(ctx, tup):

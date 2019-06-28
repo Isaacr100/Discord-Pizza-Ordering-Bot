@@ -5,7 +5,7 @@ It's my submissions for the Discord Hack Week.
 I wrote this in a few days and I kind of just learned Python so the code is probably pretty inefficient, and it crashes if you send too many requests which I'll try to fix later.
 
 It uses these librarys:
-- My slightly modified version of Jarvis Johnson's fork of gamagoris pizzapi pyhton library: https://github.com/Isaac100/pizzapi
+- My slightly modified version of Jarvis Johnson's fork of gamagoris pizzapi python library: https://github.com/Isaac100/pizzapi
 - luhn for credit card validation https://pypi.org/project/luhn/
 - validate_email for email validation https://pypi.org/project/validate_email/
 - discordpy of course https://pypi.org/project/discord.py/

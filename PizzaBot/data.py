@@ -150,5 +150,6 @@ def showorder(ctx):
 
 def clearorder(ctx):
     checkexists(ctx.author.id)
-    c.execute(f"UPDATE userInfo SET items='[]' WHERE user={ctx.author.id}") 
+    c.execute(f"UPDATE userInfo SET items='[]' WHERE user={ctx.author.id}")
+    conn.commit()
     end()
